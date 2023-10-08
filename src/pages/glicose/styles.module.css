@@ -1,0 +1,97 @@
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 40px auto 0 auto;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    /*width: 100%;*/
+    align-items: center; /*excluir*/
+}
+
+.main h1{
+    
+    margin-bottom: 14px;
+    font-size: 150%;
+}
+
+.glicose{
+    border: 1.5px solid;
+    padding: 14px;
+    border-radius: 4px;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+.highGlicose{
+    color: #ea3140;
+    font-weight: bold;
+}
+
+.normalGlicose{
+    font-weight: bold;
+}
+
+.observationContainer{
+    margin: 18px 0;
+    width: 100%;
+    max-width: 1024px;
+    
+}
+
+.observationContainer h2{
+    margin: 14px 0;
+}
+
+
+.button{
+    width: 100%;
+    border:0;
+    border-radius: 4px;
+    background-color: #3183ff;
+    color:#fff;
+    padding: 12px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:disabled{
+    background-color:rgba(48, 131, 255, 0.607);
+    cursor:not-allowed
+}
+
+.observation{
+    border: 1px solid #ddd;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+.headObservation{
+    display: flex;
+    align-items: center;
+}
+
+.observationLabel{
+    background-color: #ccc;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.buttonTrash{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.observation p{
+    margin-top: 14px;
+    white-space: pre-wrap;
+}

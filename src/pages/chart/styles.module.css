@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 40px auto 0 auto;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main{
+    
+    align-items: center; 
+}
+
+.title{
+    
+    margin-bottom: 14px;
+    font-size: 150%;
+}
+
+.date{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+
+.searchButton{
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    margin: 0 8px;
+    padding-top: 25px;
+}
+
+.chartContainer{
+    margin: 18px 0;
+    width: 100%;
+    max-width: 1024px;
+    
+    
+
+}
+
+

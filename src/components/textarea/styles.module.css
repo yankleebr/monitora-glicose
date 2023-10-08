@@ -1,0 +1,13 @@
+
+/*arrumar aqui o tamanho para a glicose*/
+.textarea{
+    width:100%;
+    resize: none;
+    height: 160px;
+    border-radius: 8px;
+    outline: none;
+    padding: 15px;
+    font-size: larger;
+    
+    
+}
