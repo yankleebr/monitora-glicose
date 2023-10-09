@@ -58,3 +58,18 @@
     margin: 0 4px;
     border-radius: 4px;
 }
+
+@media screen and (max-width:580px) {
+    
+   .logo{
+    font-size: medium;
+   }
+
+   .link{
+    font-size: small;
+   }
+
+   .loginButton{
+    font-size: x-small;
+   }
+}
